@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * Main-Entry: Entry point for all programs
+ * main-Entry: Entry point for all programs
  *
  * Description: Print the size of data types
  *
@@ -18,4 +18,5 @@ int main(void)
 	printf("Size of a long int: %d-byte(s)\n", sizeof(long int));
 	printf("Size of a long long: %d-byte(s)\n", sizeof(long long));
 	printf("Size of a float: %d-byte(s)\n", sizeof(float));
+	return (0);
 }
