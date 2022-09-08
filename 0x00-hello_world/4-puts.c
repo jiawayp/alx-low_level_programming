@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * The main function which is the entry point for runing programs
+ * main-entry: function which is the entry point for runing programs
  *
  * Description: This will print a message to the screen
  *
- * Return value of 0 (Sucess)
+ * Return: Always return 0 (Sucess)
  */
 int main(void)
 {
