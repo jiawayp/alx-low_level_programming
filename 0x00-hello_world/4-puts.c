@@ -2,9 +2,9 @@
 /**
  * The main function which is the entry point for runing programs
  *
- * This will print a message to the screen
+ * Description: This will print a message to the screen
  *
- * Return value of zero
+ * Return value of 0 (Sucess)
  */
 int main(void)
 {
