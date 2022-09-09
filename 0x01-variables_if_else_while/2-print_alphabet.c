@@ -13,7 +13,6 @@ int main(void)
 
 	while (j < 123)
 	{
-
 		putchar(j);
 		j++;
 
