@@ -5,7 +5,7 @@
 /**
  * main-entry: Main Entru for runing programs
  *
- * Description: print number on the screen and tell negative, zero, and non-zero number
+ * Description: output non-zero, zero, and negative number
  *
  * Return: return 0 (sucess)
  */
