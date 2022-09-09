@@ -5,7 +5,7 @@
 /**
  * main-entry: Main program entry
  *
- * Description: Print the last digit to the console screen.
+ * Description: Output the last digit
  *
  * Return: return 0 (sucess)
  */
@@ -17,19 +17,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = n % 10;
-	if (last_digit > 5)
+	last = n % 10;
+	if (last > 5)
 	
-		printf("Last digit of %d is %d and it is greater than 5\n", n, last_digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, last);
 	
-	else if (last_digit == 0)
+	else if (last == 0)
 	
-		printf("Last digit of %d is %d and 0\n", n, last_digit);
+		printf("Last digit of %d is %d and 0\n", n, last);
 	
-	else if (last_digit < 6 && last_digit != 0)
+	else if (last < 6 && last != 0)
 	
-		printf("Last digit of %d is %d and it is less than and is not 0\n", n, last_digit);
-	
+		printf("Last digit of %d is %d and is less 6 than and is not 0\n", n, last);
 	return (0);
 }
 
