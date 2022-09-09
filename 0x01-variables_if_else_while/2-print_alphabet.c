@@ -9,12 +9,14 @@
 
 int main(void)
 {
-	int j;
-	j = 72;
-	while(j < 123)
+	int j = 97;
+
+	while (j < 123)
 	{
+
 		putchar(j);
 		j++;
+
 	}
 	putchar(10);
 	
