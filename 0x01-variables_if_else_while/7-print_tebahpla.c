@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
- *
- * main entry for the program
+ * main-entry for the program
  *
  * Description: output alphabet in reverse
  *
