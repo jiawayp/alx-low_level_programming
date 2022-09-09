@@ -20,7 +20,7 @@ int main(void)
 		{
 			putchar(x - 10 + 'A');
 		}
-		x++
+		x++;
 	}
 	putchar(10);
 
