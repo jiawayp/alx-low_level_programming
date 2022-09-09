@@ -11,11 +11,14 @@ int main(void)
 	int x = 97;
 	int y = 65;
 
-	while (x < 123 && y <91)
+	while (x <= 122)
 	{
 		putchar(x);
-		putchar(y);
 		x++;
+	}
+	while (y <= 90)
+	{
+		putchar(y);
 		y++;
 	}
 	putchar(10);
