@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-	int x = 97;
-	int y = 65;
+	int a = 97;
+	int b = 65;
 
-	while (x <= 122)
+	while (a <= 122)
 	{
-		putchar(x);
-		x++;
+		putchar(a);
+		a++;
 	}
-	while (y <= 90)
+	while (b <= 90)
 	{
-		putchar(y);
-		y++;
+		putchar(b);
+		b++;
 	}
 	putchar(10);
-	
+
 	return (0);
 }
