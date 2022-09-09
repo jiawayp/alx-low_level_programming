@@ -10,14 +10,12 @@
 int main(void)
 {
 	int j = 97;
-
 	while (j < 123)
 	{
 		putchar(j);
 		j++;
-
 	}
 	putchar(10);
-	
+
 	return (0);
 }
