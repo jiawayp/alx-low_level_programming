@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int x = 48;
-	
+	int x = 47;
+
 	while (x <= 57)
 	{
 		putchar(x);
@@ -23,5 +23,4 @@ int main(void)
 	putchar(10);
 
 	return (0);
-
 }
