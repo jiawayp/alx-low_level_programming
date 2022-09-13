@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
  * main-entry: entry for the program
  *
@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char x[8] = '_putchar';
+	char x[8] = "_putchar";
 	int y = 0;
 
 	for (y = 0; y < 9; y++)
 	{
-		_putchar(y[x]);
+		_putchar(x[y]);
 	}
 	_putchar('\n');
 
