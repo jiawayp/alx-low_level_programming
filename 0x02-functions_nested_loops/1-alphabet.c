@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *print_alphabet: out letter in lowercase
+ *print_alphabet: entry point for program
+ *
+ *Description: print out small letters
  *
  * Return: return void
  */
