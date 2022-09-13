@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * main-entry: entry for the program
  *
@@ -13,9 +14,9 @@ int main(void)
 
 	for (y = 0; y < 9; y++)
 	{
-		putchar(y[x]);
+		_putchar(y[x]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return;
 }
