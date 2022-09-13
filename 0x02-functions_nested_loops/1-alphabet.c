@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  *print_alphabet: print alphabet in lower case
  *
  * Return: return void
  */
+
 void print_alphabet(void)
 {
 	char small_letters = 'a';
