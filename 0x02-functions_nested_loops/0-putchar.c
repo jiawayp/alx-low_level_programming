@@ -2,7 +2,7 @@
 /**
  * main-entry: entry for the program
  *
- * Descriptions: print _putchar tothe screen
+ * Descriptions: print _putchar on screen
  *
  * Return: return 0 (sucess)
  */
