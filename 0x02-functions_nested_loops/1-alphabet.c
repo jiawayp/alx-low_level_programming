@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main entry of program;
+ * main: entry of the program;
  *
  * Descriptions: out letter in lowercase
  *
@@ -10,6 +10,7 @@ void print_alphabet(void)
 {
 	char lower_alph = 'a';
 	
+
 	for (lower_alph = 'a'; lower_alph <= 'z'; lower_alph++)
 	{
 		_putchar(lower_alph);
