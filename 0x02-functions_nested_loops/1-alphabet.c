@@ -2,9 +2,9 @@
 /**
  * main: entry of the program;
  *
- * Descriptions: out letter in lowercase
+ *Print_alphabet: out letter in lowercase
  *
- * Return: return 0 (sucess)
+ * Return: return void
  */
 void print_alphabet(void)
 {
