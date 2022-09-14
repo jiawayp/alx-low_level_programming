@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *isalph print return one if c is lower or upper
+ *_isalph check for letters
  * 
  * @c: c is a ascii charater
  *
@@ -9,11 +9,11 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 'a') && (c <= 'z'))
+	if ((c >= 'a') & (c <= 'z'))
 	{
 		return (1);
 	}
-	else if ((c >= 'A') && (c <= 'Z'))
+	else if ((c >= 'A') & (c <= 'Z'))
 	{
 		return (1);
 	}
