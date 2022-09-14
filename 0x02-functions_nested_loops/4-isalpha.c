@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
- * _isalph - check for letters
- * 
+ * _isalpha - checks for alphabet character
  * @c: c is a ascii charater
  *
  * Return: return 1 if c is lower or upper
