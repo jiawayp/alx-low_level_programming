@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isalph - check for letters
+ * _isalph - check for letters
  * 
  * @c: c is a ascii charater
  *
