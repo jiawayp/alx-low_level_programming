@@ -2,7 +2,6 @@
 
 /**
  * add - function prototype
- *
  * @num1: is an integer
  * @num2: is also an integer
  *
@@ -10,6 +9,7 @@
  *
  * Return: the sum 
  */
+
 int add(int num1, int num2)
 {
 	int sum;
