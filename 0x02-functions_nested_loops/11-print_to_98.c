@@ -10,21 +10,23 @@
  *Return: void (nothing)
  */
 
- void print_to_98(int n)
- {
-	 n = 0;
-
-	 for (n = 0; n < 98; n++)
-	 {
-		 if (n <= 98)
-		 {
-			 printf("%d, ", n);
-		 }
-		 else if (n > 98)
-		 {
-			 printf("%d, ", n);
-			 n--;
-		 }
-	 }
-	 printf("98\n");
- }
+void print_to_98(int n)
+{
+	if (n < 98)
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n);
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n > 9)
+		{
+			printf("%d, ", n);
+			n--;
+		}
+	}
+	printf("98\n");
+}
