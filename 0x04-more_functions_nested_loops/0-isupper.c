@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper - prototype function
+ * _isupper - prototype function
  * @c: check for upper
  *
  * Return: return 1 if c is upper, and 0 if not
