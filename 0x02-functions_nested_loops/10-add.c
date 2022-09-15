@@ -2,19 +2,18 @@
 
 /**
  * add - function prototype
- * @num1: is an integer
- * @num2: is also an integer
+ * @n1: integer
+ * @n2: integer
  *
  * Description: add two number
  *
- * Return: the sum 
+ * Return: sum
  */
 
-int add(int num1, int num2)
+int add(int n1, int n2)
 {
 	int sum;
 
-	sum = num1 + num2;
+	sum = n1 + n2;
 
 	return (sum);
-}
