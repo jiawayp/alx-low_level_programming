@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - function prototype 
- * @c: checked for digital number
+ * _isdigit - check for digit value
+ * @c: character variable
  *
- * Return: 1 if digit, else return 0
+ * Return: 1 if digit, esle return 0
  */
 
 int _isdigit(int c)
 {
 	if ((c >= '0') & (c <= '9'))
 	{
-		return (1);
+		return (10);
 	}
 	else
 	{
