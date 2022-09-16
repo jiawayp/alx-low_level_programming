@@ -7,7 +7,7 @@
  */
 void print_most_numbers(void)
 {
-	int c = 48;
+	char c = 48;
 
 	while (c <= 57)
 	{
