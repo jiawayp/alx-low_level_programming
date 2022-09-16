@@ -9,10 +9,12 @@
 void print_numbers(void)
 {
 	int c;
+	c = '0';
 
-	for (c = '0'; c <= '9'; c++)
+	while (c <= '9')
 	{
-		putchar(c);
+		_putchar(c);
+		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
