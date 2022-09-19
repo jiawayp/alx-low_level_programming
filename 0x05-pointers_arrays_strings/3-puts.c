@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * _puts - function that print string
- * @str: string 
- * Return: nothing(void)
+ * @str: string
+ * Return: void
  */
 
 void _puts(char *str)
@@ -15,5 +14,6 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
+
 	_putchar('\n');
 }
