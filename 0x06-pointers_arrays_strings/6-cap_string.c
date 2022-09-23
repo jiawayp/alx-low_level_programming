@@ -11,7 +11,7 @@ char *cap_string(char *s)
 	int i;
 	int prev;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
 		prev = i - 1;
 		if (s[i] >= 97 && s[i] <= 122)
@@ -31,6 +31,7 @@ char *cap_string(char *s)
 			else if (s[prev] == 123 || s[prev] == 125)
 				s[i] = s[i] - 32;
 		}
+		i++;
 	}
 
 	return (s);
