@@ -19,7 +19,7 @@ char *cap_string(char *s)
 			if (i == 0)
 				s[i] = s[i] - 32;
 			else if (s[prev] >= 9 && s[prev] <= 10)
-				s[i] = s[s] - 32;
+				s[i] = s[i] - 32;
 			else if (s[prev] >= 32 && s[prev] <= 34)
 				s[i] = s[i] - 32;
 			else if (s[prev] >= 40 && s[prev] <= 41)
