@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strchr - locate character in a string
- * @s: pointer 
- * @c: character
- * Return: pointer to char or null
+ * _strchr - Locate a character in a string
+ * @s: string Pointer
+ * @c: The character 
+ * Return: C if it is found, or Null if not found
  */
 
 char *_strchr(char *s, char c)
@@ -15,9 +15,9 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == c)
-			return ((s + i));
+		{
+			return (s + i);
+		}
 	}
-	if (c == '\0')
-		return ((s + i));
-	return (NULL);
+	return ('\0');
 }
