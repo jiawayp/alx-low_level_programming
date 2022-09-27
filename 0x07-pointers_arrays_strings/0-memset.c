@@ -2,8 +2,8 @@
 
 /**
  * _memset - fills the memory with contant byte
- * @s: string array
- * @b: constant
+ * @s: pointer to memory
+ * @b: constant bytes
  * @n: number of bytes
  * Return: s
  */
@@ -12,9 +12,11 @@ char *_memset(char *b, char b, unsigned int n)
 {
 	unsigned int a;
 
-	for (a = 0; a < n; a++)
+	a = 0;
+	while (a < n)
 	{
 		s[a] = b;
+		a++;
 	}
 
 	return (s);
