@@ -8,7 +8,7 @@
  * Return: pointer to char or NULL.
  */
 
-char _strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i;
 
