@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- * _putchar - print stdout 
+ * _putchar - output to screen
  * @c: character
- * Return: success (1)
+ * Return: 1
  */
 
 int _putchar(char c)
