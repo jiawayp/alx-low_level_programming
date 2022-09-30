@@ -27,6 +27,6 @@ int prime_number(int n, int i)
 	else if (n % i == 0)
 		return (0);
 	else if (n % i != 0)
-		return (prime_number(n, i -1));
+		return (prime_number(n, i - 1));
 	return (0);
 }
