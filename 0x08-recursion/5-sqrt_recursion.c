@@ -15,7 +15,7 @@ int get_sqrt(int r_num, int sqrt_root)
 {
 	if ((sqrt_root * sqrt_root) == r_num)
 		return (sqrt_root);
-	if (sqrt_root == num / 2)
+	if (sqrt_root == r_num / 2)
 		return (-1);
 	return (get_sqrt(r_num, sqrt_root + 1));
 }
