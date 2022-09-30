@@ -3,36 +3,40 @@
 int get_sqrt(int r_num, int sqrt_root);
 int _sqrt_recursion(int n);
 
-
 /**
- * get_sqrt - get sqaure root for a natural num
- * @r_num: number to find root of
- *@sqrt_root: the root
- *Return: n if it is natural num else -1 
+ * get_sqrt - find the natural square of a number
+ * @x_num: The number to find the root for
+ * @root: the root
+ * Return: n if it is a square roor, -1 if not
  */
 
-int get_sqrt(int r_num, int sqrt_root)
+int get_sqrt(int x_num, int root)
 {
-	if ((sqrt_root * sqrt_root) == r_num)
-		return (sqrt_root);
-	if (sqrt_root == r_num / 2)
+	if ((root * root) == x_num)
+	{
+		return (root);
+	}
+	if (root == x_num / 2)
 		return (-1);
-	return (get_sqrt(r_num, sqrt_root + 1));
+
+	return (get_sqrt(x_num, root + 1));
 }
 
 /**
- * _sqrt_recursion - return the root of a number
- * @n: the number that return the root
- * Return: n if it is a natural number or -1 if not
+ * _sqrt_recursion - return natural square roo
+ * @n: the number to return the root
+ * Return: n if natural sqaure, -1 if not
  */
 
 int _sqrt_recursion(int n)
 {
-	int sqrt_root = 0;
+	int root = 0;
 
 	if (n < 0)
 		return (-1);
-	else if (n == 1)
+	if (n == 1)
 		return (1);
-	return (get_sqrt(n, sqrt_root));
+	
+	return (get_sqrt(n, root));
+
 }
