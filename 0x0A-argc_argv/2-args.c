@@ -7,13 +7,13 @@
  * Return: 0 success
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int a;
 
 	for (a = 0, a < argc; a++)
 	{
-		printf("argv[%d] = %s\n", a, argv[a]);
+		printf("argv[%d] = %s\n", argv[a]);
 	}
 	return (0);
 }
