@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * main - function
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		prod *= atoi(argv[i]);
+		prod = prod * atoi(argv[i]);
 	}
 	printf("%d\n", prod);
 	return (0);
