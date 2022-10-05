@@ -1,10 +1,10 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of a specific size with char
- * @size: the size of the array 
+ * create_array - create an array to specific char
+ * @size: size to make char 
  * @c: charcter to fill the array
- * Return: the array character
+ * Return: the array char
  */
 
 char *create_array(unsigned int size, char c)
