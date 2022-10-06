@@ -11,14 +11,14 @@
 
 int main(int argc, char *argv[])
 {
-	int a, b, sum = 0;
+	int a, b, sum;
 
 	if (argc < 2)
 	{
 		printf("\n");
 		return (0);
 	}
-	while (a < argc)
+	for (a = 0; a < argc; a++)
 	{
 		for (b = 0; argv[a][b] != '\0'; b++)
 		{
@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		a++;
 		sum = sum + atoi(argv[a]);
 	}
 	printf("%d\n", sum);
