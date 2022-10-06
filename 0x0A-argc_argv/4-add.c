@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	{
 		while (argv[a][b] != '\0')
 		{
-			if (!isdigit(agrv[a][b]))
+			if (!isdigit(argv[a][b]))
 			{
 				printf("Error\n");
 				return (1);
