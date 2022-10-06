@@ -32,15 +32,10 @@ int **alloc_grid(int width, int height)
 		}
 		c++;
 	}
-	while (a < height)
-	{
-		while (b < width)
-		{
-			grid[a][b] = 0;
-			b++;
-		}
-		a++;
-	}
+	
+	for (a = 0; a < height; a++)
+		for (b = 0; b < width; b++)
+			grid[a][c] = 0;
 
 	return (grid);
 }
