@@ -20,14 +20,13 @@ int main(int argc, char *argv[])
 	}
 	while (a < argc)
 	{
-		while (argv[a][b] != '\0')
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
 			if (!isdigit(argv[a][b]))
 			{
 				printf("Error\n");
 				return (1);
 			}
-			b++;
 		}
 		a++;
 		sum = sum + atoi(argv[a]);
