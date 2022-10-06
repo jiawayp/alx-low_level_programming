@@ -2,16 +2,17 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - return a point to 2D array of ints
- * @width: width of grid
- * @height: height of grid
- * Return: pointer to the grid
+ * alloc_grid - function returns a pointer to 2d array
+ * @width: colums
+ * @height: row;
+ * Return: pointer to 2 d
  */
 
 int **alloc_grid(int width, int height)
 {
 	int **grid;
 	int a, b, c = 0;
+
 
 	if (width < 1 || height < 1)
 	{
@@ -32,10 +33,8 @@ int **alloc_grid(int width, int height)
 		}
 		c++;
 	}
-	
 	for (a = 0; a < height; a++)
 		for (b = 0; b < width; b++)
 			grid[a][c] = 0;
-
 	return (grid);
 }
