@@ -8,7 +8,7 @@
 /**
  * read_textfile - read a text file and print it to the POSIX std output
  * @filename: file to print
- * @letter: char of letter
+ * @letters: char of letter
  * Return: number of chars printed
  */
 
