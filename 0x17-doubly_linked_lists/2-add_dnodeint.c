@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * add_anodeint - add new node at the beginning of a dlisint_t list
+ * add_dnodeint - add new node at the beginning of a dlisint_t list
  * @head: head of node os a double linked list
  * @n: number of place of node
  * Return: the address of the new element or NULL if it failed
