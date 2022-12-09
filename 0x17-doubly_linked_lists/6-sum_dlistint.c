@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * sum_dlistint - return the sum of all the data(n) of a dlistint_t linked list.
- * @head: head of double linked list
+ * sum_dlistint - return the sum of all the data(n) of a dlistint_t list.
+ * @head: head of double linked
  * Return: 0
  */
 
